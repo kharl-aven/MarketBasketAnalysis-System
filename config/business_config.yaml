@@ -1,0 +1,8 @@
+promo:
+  min_margin: 0.25
+  discount_pct: 0.20
+  max_promos: 10
+homepage:
+  top_n: 20
+shelf:
+  n_clusters: 5

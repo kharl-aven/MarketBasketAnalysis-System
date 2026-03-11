@@ -1,0 +1,9 @@
+column_aliases:
+  txn_id:    [order_id, OrderID, receipt_no, transaction_id]
+  item_name: [item, product_name, name, menu_item]
+  qty:       [quantity, count, amount]
+  timestamp: [order_time, created_at, date, datetime]
+  store_id:  [branch, location, store]
+thresholds:
+  min_rows: 50
+  max_null_pct: 0.10

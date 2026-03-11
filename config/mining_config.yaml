@@ -1,0 +1,10 @@
+min_support: 0.01
+min_confidence: 0.30
+min_lift: 1.20
+max_itemset_size: 4
+max_rules: 200
+hybrid_threshold: 5000
+weights:
+  lift: 0.40
+  confidence: 0.35
+  leverage: 0.25

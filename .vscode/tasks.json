@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start FastAPI",
+      "type": "shell",
+      "command": "uvicorn src.api.main:app --reload --port 8000",
+      "isBackground": true
+    },
+    {
+      "label": "Start Streamlit",
+      "type": "shell",
+      "command": "streamlit run dashboard\\app.py"
+    },
+    {
+      "label": "Run Tests",
+      "type": "shell",
+      "command": "pytest tests\\ -v"
+    },
+    {
+      "label": "Run Pipeline",
+      "type": "shell",
+      "command": "python src\\pipeline.py --input data\\raw\\orders.csv --auto-tune"
+    }
+  ]
+}
